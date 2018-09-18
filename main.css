@@ -4,6 +4,7 @@ body
     margin: 0px;
 }
 #k1{
+    margin-top: 10px;
     color:white;
     font-size: 36px;
     border: 5px solid #424bf4;
@@ -26,8 +27,9 @@ body
 }
 .wrapper
 {
-    margin 10px;
-
+    width: 100%;
+    background-color: #dfddf1;
+ 
 }
 
 #k6
@@ -39,17 +41,19 @@ body
 }
 .buttons
 {
-border: solid #323232;
+border: 2px solid #323232;
 display: inline-block;
-position: relative;
 font-family: tahoma;
 font-size: 20px;
-padding: 15px 5px;
+padding: 15px 25px;
 color: #fff;
-background: #1abc9c;
+background-color: #1abc9c;
 margin:10px;
 border-radius: 15px;
+float: right;
+    text-decoration: none;
 }
+
 #k5
 {
     color: white;
