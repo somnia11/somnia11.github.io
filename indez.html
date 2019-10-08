@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather by Coordinates</title>
+    <script src="weather.js"></script>
+</head>
+<body>
+
+<form onsubmit="Ajax(); return false;">
+    <label> широта:</label>
+    <br>
+    <input type="number" name="lat" id="lat">
+    <br>
+    <label> долгота:</label>
+    <br>
+    <input type="number" name="lon" id="lon">
+    <br>
+    <input type="submit" value="погода">
+</form>
+<br>
+
+<div id="placeContainer" style="text-align: center">
+    <span id="placeText" style="font-size: 30pt"></span>
+</div>
+
+<img id="weatherIcon" style="margin-left: 600px">
+
+<div id="tempContainer" style="text-align: center">
+    <span id="tempText" style="font-size: 30pt"></span>
+</div>
+
+<br>
+<div id="windContainer" style="text-align: center">
+    <span id="windText" style="font-size: 30pt"></span>
+</div>
+
+<div id="weatherContainer" style="text-align: center"></div>
+</body>
+</html>
